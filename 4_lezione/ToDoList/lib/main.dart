@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.check_box),
             // Chiama la funzione per spuntare/deselezionare tutti i task
             onPressed: _toggleAllActive,
-            label: const Text('Toggle All'),
+            label: const Text('Toggle All/NONE'),
           ),
           SizedBox(width: 40),
         ],

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -57,12 +55,18 @@ class _MyHomePageState extends State<MyHomePage> {
             decoration: const InputDecoration(labelText: 'TODO Title'),
           ),
           actions: [
-            TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Cancel')),
-            ElevatedButton(onPressed: () {
-              if (textController.text.isNotEmpty) {
-                Navigator.of(context).pop(Todo(title: textController.text));
-              }
-            }, child: const Text('Add')),
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('Cancel'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                if (textController.text.isNotEmpty) {
+                  Navigator.of(context).pop(Todo(title: textController.text));
+                }
+              },
+              child: const Text('Add'),
+            ),
           ],
         );
       },
@@ -75,15 +79,13 @@ class _MyHomePageState extends State<MyHomePage> {
   void _toggleTodo(int index, bool? value) {
     setState(() {
       // Aggiorniamo il valore della checkbox all'indice specificato.
-      if(value == null) return;
+      if (value == null) return;
       _todos[index].isCompleted = value;
     });
   }
 
   // Funzione per resettare tutti i task, svuotando la lista.
-  void _resetAll() {
-    setState(() => _todos.clear());
-  }
+  void _resetAll() => setState(() => _todos.clear());
 
   // Funzione per invertire lo stato di tutti i task.
   void _invertAll() {
@@ -132,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
             label: const Text('Invert All'),
           ),
           SizedBox(width: 40),
-                    ElevatedButton.icon(
+          ElevatedButton.icon(
             icon: Icon(Icons.check_box),
             // Chiama la funzione per spuntare/deselezionare tutti i task
             onPressed: _toggleAllActive,
@@ -154,7 +156,9 @@ class _MyHomePageState extends State<MyHomePage> {
             title: Text(
               todo.title,
               style: TextStyle(
-                decoration: todo.isCompleted ? TextDecoration.lineThrough : TextDecoration.none,
+                decoration: todo.isCompleted
+                    ? TextDecoration.lineThrough
+                    : TextDecoration.none,
               ),
             ),
             // Il valore della checkbox è preso dalla nostra lista di stato `_todos`.

@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:its_aa_pn_2025_cross_platform/main.dart';
+import 'package:its_aa_pn_2025_cross_platform/main_with_alert_and_modificated.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

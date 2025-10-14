@@ -42,7 +42,6 @@ class _MyHomePageState extends State<MyHomePage> {
   // Mostra un dialogo per inserire il titolo e lo stato iniziale.
   Future<void> _addTodo() async {
     final TextEditingController textController = TextEditingController();
-    bool isCompleted = false;
 
     final result = await showDialog<Todo>(
       context: context,
@@ -75,6 +74,78 @@ class _MyHomePageState extends State<MyHomePage> {
     if (result != null) setState(() => _todos.add(result));
   }
 
+  // Funzione per modificare un elemento "TODO" esistente.
+  // Mostra un dialogo con il titolo attuale per modificarlo.
+  Future<void> _editTodo(int index) async {
+    final TextEditingController textController = 
+        TextEditingController(text: _todos[index].title);
+
+    final result = await showDialog<String>(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Edit TODO'),
+          content: TextField(
+            controller: textController,
+            autofocus: true,
+            decoration: const InputDecoration(labelText: 'TODO Title'),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('Cancel'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                if (textController.text.isNotEmpty) {
+                  Navigator.of(context).pop(textController.text);
+                }
+              },
+              child: const Text('Save'),
+            ),
+          ],
+        );
+      },
+    );
+
+    if (result != null) {
+      setState(() {
+        _todos[index].title = result;
+      });
+    }
+  }
+
+  // Funzione per eliminare un elemento "TODO" dalla lista.
+  // Mostra un dialogo di conferma prima di eliminare.
+  Future<void> _deleteTodo(int index) async {
+    final confirm = await showDialog<bool>(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Delete TODO'),
+          content: Text('Are you sure you want to delete "${_todos[index].title}"?'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(false),
+              child: const Text('Cancel'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pop(true),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+              child: const Text('Delete'),
+            ),
+          ],
+        );
+      },
+    );
+
+    if (confirm == true) {
+      setState(() {
+        _todos.removeAt(index);
+      });
+    }
+  }
+
   // Funzione per invertire lo stato di una singola checkbox.
   void _toggleTodo(int index, bool? value) {
     setState(() {
@@ -85,7 +156,35 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   // Funzione per resettare tutti i task, svuotando la lista.
-  void _resetAll() => setState(() => _todos.clear());
+  // Mostra un dialogo di conferma prima di resettare.
+  Future<void> _resetAll() async {
+    if (_todos.isEmpty) return;
+
+    final confirm = await showDialog<bool>(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Reset All'),
+          content: Text('Are you sure you want to delete all ${_todos.length} tasks?'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(false),
+              child: const Text('Cancel'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pop(true),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
+              child: const Text('Reset'),
+            ),
+          ],
+        );
+      },
+    );
+
+    if (confirm == true) {
+      setState(() => _todos.clear());
+    }
+  }
 
   // Funzione per invertire lo stato di tutti i task.
   void _invertAll() {
@@ -121,26 +220,26 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
         actions: [
           ElevatedButton.icon(
-            icon: Icon(Icons.refresh),
+            icon: const Icon(Icons.refresh),
             // Chiama la funzione per resettare lo stato.
             onPressed: _resetAll,
             label: const Text('Reset All'),
           ),
-          SizedBox(width: 40),
+          const SizedBox(width: 40),
           ElevatedButton.icon(
-            icon: Icon(Icons.invert_colors),
+            icon: const Icon(Icons.invert_colors),
             // Chiama la funzione per invertire lo stato di tutti i task.
             onPressed: _invertAll,
             label: const Text('Invert All'),
           ),
-          SizedBox(width: 40),
+          const SizedBox(width: 40),
           ElevatedButton.icon(
-            icon: Icon(Icons.check_box),
+            icon: const Icon(Icons.check_box),
             // Chiama la funzione per spuntare/deselezionare tutti i task
             onPressed: _toggleAllActive,
             label: const Text('Toggle All/NONE'),
           ),
-          SizedBox(width: 40),
+          const SizedBox(width: 40),
         ],
       ),
       // Usiamo ListView.builder per creare una lista scorrevole in modo efficiente.
@@ -150,7 +249,7 @@ class _MyHomePageState extends State<MyHomePage> {
         itemCount: _todos.length,
         // `itemBuilder` è una funzione che viene chiamata per ogni elemento della lista.
         itemBuilder: (context, index) {
-          // Per ogni elemento, creiamo un CheckboxListTile.
+          // Per ogni elemento, creiamo un CheckboxListTile con pulsanti di modifica ed eliminazione.
           final todo = _todos[index];
           return CheckboxListTile(
             title: Text(
@@ -165,13 +264,31 @@ class _MyHomePageState extends State<MyHomePage> {
             value: todo.isCompleted,
             // Quando la checkbox viene premuta, chiamiamo la funzione per invertire il suo stato.
             onChanged: (value) => _toggleTodo(index, value),
+            // Aggiungiamo i pulsanti di modifica ed eliminazione a destra.
+            secondary: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Pulsante per modificare il task
+                IconButton(
+                  icon: const Icon(Icons.edit, color: Colors.blue),
+                  onPressed: () => _editTodo(index),
+                  tooltip: 'Edit',
+                ),
+                // Pulsante per eliminare il task
+                IconButton(
+                  icon: const Icon(Icons.delete, color: Colors.red),
+                  onPressed: () => _deleteTodo(index),
+                  tooltip: 'Delete',
+                ),
+              ],
+            ),
           );
         },
       ),
       floatingActionButton: FloatingActionButton(
         // Quando il pulsante viene premuto, chiamiamo la funzione per aggiungere un nuovo task.
         onPressed: _addTodo,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }

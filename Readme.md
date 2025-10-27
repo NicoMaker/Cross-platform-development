@@ -7,6 +7,7 @@
 - [3 Lezione](3_lezione)
 - [4 Lezione](4_lezione)
 - [5 Lezione](5_lezione)
+- [6 Lezione](6_lezione)
 
 
 ## Esercitazioni

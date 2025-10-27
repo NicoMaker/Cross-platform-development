@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:its_aa_pn_2025_cross_platform/Todo.dart';
+import 'package:its_aa_pn_2025_cross_platform/todo.dart';
 
 void main() {
   runApp(const MyApp());

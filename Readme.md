@@ -12,4 +12,4 @@
 
 ## Esercitazioni
 
-- [TallyCounter](Esercitazioni/TallyCounter)
+- [Esercitazioni](Readme.md)

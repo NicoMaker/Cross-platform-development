@@ -1,4 +1,4 @@
-- [vai al file principale delle Esercitazioni(../Readme.md)
+- [vai al file principale delle Esercitazioni](../Readme.md)
 
 
 # Task 1

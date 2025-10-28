@@ -12,4 +12,4 @@
 
 ## Esercitazioni
 
-- [Esercitazioni](Readme.md)
+- [Task 1](Esercitazioni/Task_1/)

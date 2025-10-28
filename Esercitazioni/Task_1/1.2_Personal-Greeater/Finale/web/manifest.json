@@ -1,6 +1,6 @@
 {
-    "name": "tallycounter",
-    "short_name": "tallycounter",
+    "name": "crossplatform_futurevoid",
+    "short_name": "crossplatform_futurevoid",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

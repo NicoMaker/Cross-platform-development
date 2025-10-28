@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "tallycounter" "\0"
+            VALUE "FileDescription", "crossplatform_futurevoid" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "tallycounter" "\0"
+            VALUE "InternalName", "crossplatform_futurevoid" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "tallycounter.exe" "\0"
-            VALUE "ProductName", "tallycounter" "\0"
+            VALUE "OriginalFilename", "crossplatform_futurevoid.exe" "\0"
+            VALUE "ProductName", "crossplatform_futurevoid" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

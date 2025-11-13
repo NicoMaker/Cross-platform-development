@@ -1,4 +1,5 @@
 import "package:go_router/go_router.dart";
+import "package:its_aa_pn_2025_cross_platform/colors_page/pages/colors_page.dart";
 import "package:its_aa_pn_2025_cross_platform/counter_page/pages/counter_page.dart";
 import "package:its_aa_pn_2025_cross_platform/home_page.dart";
 import "package:its_aa_pn_2025_cross_platform/personal_greeter/pages/greeter_page.dart";
@@ -27,6 +28,12 @@ GoRouter router(Ref ref) {
         path: "/greet",
         builder: (context, state) {
           return const GreeterPage();
+        },
+      ),
+      GoRoute(
+        path: "/colors",
+        builder: (context, state) {
+          return const ColorsPage();
         },
       ),
     ],

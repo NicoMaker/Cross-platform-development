@@ -30,6 +30,12 @@ class HomePage extends StatelessWidget {
                 await context.push("/greet");
               },
             ),
+            _HomeCard(
+              label: "Esercitazione 1.3",
+              onTap: () async {
+                await context.push("/colors");
+              },
+            ),
           ],
         ),
       ),

@@ -1,14 +1,16 @@
-analyzer:
-  errors:
-    prefer_double_quotes: ignore
 include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
 
 linter:
   rules:
     prefer_double_quotes: true
     prefer_single_quotes: false
     public_member_api_docs: false
+    lines_longer_than_80_chars: false
 
 formatter:
   page_width: 90
-  trailing_commas : preserve
+  trailing_commas: preserve

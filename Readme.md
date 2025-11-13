@@ -12,7 +12,6 @@
 - [8 Lezione](Lezioni/8_lezione)
 
 
-
 ## Esercitazioni
 
 - [Task 1](Esercitazioni/Task_1/)

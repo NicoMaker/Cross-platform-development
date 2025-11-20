@@ -29,7 +29,6 @@ class Person {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -49,9 +48,8 @@ class MyApp extends StatelessWidget {
 
 class ContactListScreen extends StatefulWidget {
   const ContactListScreen({super.key});
-
   @override
-  State<ContactListScreen> createState() => _ContactListScreenState();
+  State createState() => _ContactListScreenState();
 }
 
 class _ContactListScreenState extends State<ContactListScreen> {
@@ -59,19 +57,24 @@ class _ContactListScreenState extends State<ContactListScreen> {
     Person(
       firstName: 'Mario',
       lastName: 'Rossi',
-      phones: ['3331112233'],
+      phones: ['+393331112233'],
     ),
     Person(
       firstName: 'Laura',
       lastName: 'Bianchi',
-      phones: ['3384455667'],
+      phones: ['+393384455667'],
     ),
     Person(
       firstName: 'Giovanni',
       lastName: 'Verdi',
-      phones: ['3409988776'],
+      phones: ['+393409988776'],
     ),
   ];
+
+  bool validateItalianPhone(String phone) {
+    final regExp = RegExp(r'^\+39(?!94)\d{10}$');
+    return regExp.hasMatch(phone);
+  }
 
   Future<void> _makePhoneCall(String phoneNumber) async {
     final Uri uri = Uri(scheme: 'tel', path: phoneNumber);
@@ -79,20 +82,6 @@ class _ContactListScreenState extends State<ContactListScreen> {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Impossibile effettuare la chiamata')),
-      );
-    }
-  }
-
-  Future<void> _sendEmail(String email) async {
-    final Uri uri = Uri(
-      scheme: 'mailto',
-      path: email,
-      query: 'subject=Contatto da app&body=Ciao, ti sto contattando dalla mia app.',
-    );
-    if (!await launchUrl(uri)) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Impossibile aprire il client email')),
       );
     }
   }
@@ -113,61 +102,81 @@ class _ContactListScreenState extends State<ContactListScreen> {
     showDialog(
       context: context,
       builder: (context) {
-        return AlertDialog(
-          title: const Text('Modifica contatto'),
-          content: SingleChildScrollView(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                TextField(
-                  controller: firstController,
-                  decoration: const InputDecoration(labelText: 'Nome'),
-                ),
-                const SizedBox(height: 12),
-                TextField(
-                  controller: lastController,
-                  decoration: const InputDecoration(labelText: 'Cognome'),
-                ),
-                const SizedBox(height: 12),
-                TextField(
-                  controller: phoneController,
-                  decoration: const InputDecoration(
-                    labelText: 'Telefono (solo cifre, max 10)',
-                  ),
-                  keyboardType: TextInputType.number,
-                  inputFormatters: [
-                    FilteringTextInputFormatter.digitsOnly,
-                    LengthLimitingTextInputFormatter(10),
+        String? errorMessage;
+        return StatefulBuilder(
+          builder: (context, setState) {
+            return AlertDialog(
+              title: const Text('Modifica contatto'),
+              content: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    TextField(
+                      controller: firstController,
+                      decoration: const InputDecoration(labelText: 'Nome'),
+                    ),
+                    const SizedBox(height: 12),
+                    TextField(
+                      controller: lastController,
+                      decoration: const InputDecoration(labelText: 'Cognome'),
+                    ),
+                    const SizedBox(height: 12),
+                    TextField(
+                      controller: phoneController,
+                      decoration: InputDecoration(
+                        labelText: 'Telefono (+39 e 10 cifre)',
+                        errorText: errorMessage,
+                      ),
+                      keyboardType: TextInputType.phone,
+                      inputFormatters: [
+                        FilteringTextInputFormatter.allow(
+                          RegExp(r'^\+?\d{0,12}'),
+                        ),
+                        LengthLimitingTextInputFormatter(13),
+                      ],
+                      onChanged: (value) {
+                        setState(() {
+                          errorMessage = null;
+                        });
+                      },
+                    ),
                   ],
                 ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text('Annulla'),
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    final first = firstController.text.trim();
+                    final last = lastController.text.trim();
+                    final phone = phoneController.text.trim();
+                    String? err;
+                    if (first.isEmpty || last.isEmpty || phone.isEmpty) {
+                      err = 'Compila tutti i campi';
+                    } else if (!validateItalianPhone(phone)) {
+                      err = 'Numero non valido. +39 e 10 cifre';
+                    }
+                    if (err != null) {
+                      setState(() {
+                        errorMessage = err;
+                      });
+                      return;
+                    }
+                    setState(() {
+                      contacts[index].firstName = first;
+                      contacts[index].lastName = last;
+                      contacts[index].phones = [phone];
+                    });
+                    Navigator.pop(context);
+                  },
+                  child: const Text('Salva'),
+                ),
               ],
-            ),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text('Annulla'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                if (firstController.text.isEmpty ||
-                    lastController.text.isEmpty ||
-                    phoneController.text.isEmpty) return;
-
-                final cleanPhone =
-                    phoneController.text.replaceAll(RegExp(r'[^0-9]'), '');
-                if (cleanPhone.length != 10) return;
-
-                setState(() {
-                  contacts[index].firstName = firstController.text;
-                  contacts[index].lastName = lastController.text;
-                  contacts[index].phones = [cleanPhone];
-                });
-                Navigator.pop(context);
-              },
-              child: const Text('Salva'),
-            ),
-          ],
+            );
+          },
         );
       },
     );
@@ -181,65 +190,85 @@ class _ContactListScreenState extends State<ContactListScreen> {
     showDialog(
       context: context,
       builder: (context) {
-        return AlertDialog(
-          title: const Text('Nuovo contatto'),
-          content: SingleChildScrollView(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                TextField(
-                  controller: firstController,
-                  decoration: const InputDecoration(labelText: 'Nome'),
-                ),
-                const SizedBox(height: 12),
-                TextField(
-                  controller: lastController,
-                  decoration: const InputDecoration(labelText: 'Cognome'),
-                ),
-                const SizedBox(height: 12),
-                TextField(
-                  controller: phoneController,
-                  decoration: const InputDecoration(
-                    labelText: 'Telefono (solo cifre, max 10)',
-                  ),
-                  keyboardType: TextInputType.number,
-                  inputFormatters: [
-                    FilteringTextInputFormatter.digitsOnly,
-                    LengthLimitingTextInputFormatter(10),
+        String? errorMessage;
+        return StatefulBuilder(
+          builder: (context, setState) {
+            return AlertDialog(
+              title: const Text('Nuovo contatto'),
+              content: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    TextField(
+                      controller: firstController,
+                      decoration: const InputDecoration(labelText: 'Nome'),
+                    ),
+                    const SizedBox(height: 12),
+                    TextField(
+                      controller: lastController,
+                      decoration: const InputDecoration(labelText: 'Cognome'),
+                    ),
+                    const SizedBox(height: 12),
+                    TextField(
+                      controller: phoneController,
+                      decoration: InputDecoration(
+                        labelText: 'Telefono (+39 e 10 cifre)',
+                        errorText: errorMessage,
+                      ),
+                      keyboardType: TextInputType.phone,
+                      inputFormatters: [
+                        FilteringTextInputFormatter.allow(
+                          RegExp(r'^\+?\d{0,12}'),
+                        ),
+                        LengthLimitingTextInputFormatter(13),
+                      ],
+                      onChanged: (value) {
+                        setState(() {
+                          errorMessage = null;
+                        });
+                      },
+                    ),
                   ],
                 ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text('Annulla'),
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    final first = firstController.text.trim();
+                    final last = lastController.text.trim();
+                    final phone = phoneController.text.trim();
+                    String? err;
+                    if (first.isEmpty || last.isEmpty || phone.isEmpty) {
+                      err = 'Compila tutti i campi';
+                    } else if (!validateItalianPhone(phone)) {
+                      err = 'Numero non valido. +39 e 10 cifre, no 94';
+                    }
+                    if (err != null) {
+                      setState(() {
+                        errorMessage = err;
+                      });
+                      return;
+                    }
+                    setState(() {
+                      contacts.add(
+                        Person(
+                          firstName: first,
+                          lastName: last,
+                          phones: [phone],
+                        ),
+                      );
+                    });
+                    Navigator.pop(context);
+                  },
+                  child: const Text('Crea'),
+                ),
               ],
-            ),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text('Annulla'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                if (firstController.text.isEmpty ||
-                    lastController.text.isEmpty ||
-                    phoneController.text.isEmpty) return;
-
-                final cleanPhone =
-                    phoneController.text.replaceAll(RegExp(r'[^0-9]'), '');
-                if (cleanPhone.length != 10) return;
-
-                setState(() {
-                  contacts.add(
-                    Person(
-                      firstName: firstController.text,
-                      lastName: lastController.text,
-                      phones: [cleanPhone],
-                    ),
-                  );
-                });
-                Navigator.pop(context);
-              },
-              child: const Text('Crea'),
-            ),
-          ],
+            );
+          },
         );
       },
     );
@@ -290,11 +319,6 @@ class _ContactListScreenState extends State<ContactListScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    IconButton(
-                      tooltip: 'Email di esempio',
-                      icon: const Icon(Icons.email_outlined),
-                      onPressed: () => _sendEmail('esempio@mail.com'),
-                    ),
                     IconButton(
                       tooltip: 'Modifica',
                       icon: const Icon(Icons.edit),

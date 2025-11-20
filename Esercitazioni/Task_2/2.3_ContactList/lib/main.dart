@@ -156,7 +156,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
 
                 final cleanPhone =
                     phoneController.text.replaceAll(RegExp(r'[^0-9]'), '');
-                if (cleanPhone.isEmpty || cleanPhone.length > 10) return;
+                if (cleanPhone.length != 10) return;
 
                 setState(() {
                   contacts[index].firstName = firstController.text;
@@ -224,7 +224,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
 
                 final cleanPhone =
                     phoneController.text.replaceAll(RegExp(r'[^0-9]'), '');
-                if (cleanPhone.isEmpty || cleanPhone.length > 10) return;
+                if (cleanPhone.length != 10) return;
 
                 setState(() {
                   contacts.add(

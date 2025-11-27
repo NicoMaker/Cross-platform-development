@@ -17,3 +17,4 @@
 
 - [Task 1](Esercitazioni/Task_1/)
 - [Task 2](Esercitazioni/Task_2/)
+- [Task 3](Esercitazioni/Task_3/)

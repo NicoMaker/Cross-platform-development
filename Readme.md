@@ -12,7 +12,6 @@
 - [8 Lezione](Lezioni/8_lezione)
 - [9 Lezione](Lezioni/9_lezione)
 - [10 Lezione](Lezioni/10_Lezione)
-- [11 Lezione](Lezioni/11_Lezione)
 
 
 ## Esercitazioni

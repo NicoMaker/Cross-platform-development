@@ -1,0 +1,21 @@
+{
+    "[dart]": {
+        "editor.rulers": [
+            90
+        ],
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.suggest.insertMode": "replace",
+        "editor.inlayHints.enabled": "offUnlessPressed",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "dart.flutterSdkPath": "/Users/venir/.local/share/mise/installs/flutter/3.38.1-stable",
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/Users/venir/.local/share/mise/shims/node"
+    }
+}

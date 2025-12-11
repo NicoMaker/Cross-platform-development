@@ -4,12 +4,12 @@ import "package:dio/dio.dart";
 import "package:flutter/foundation.dart";
 import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
-import "package:flutter_riverpod/misc.dart";
-// Importa la nuova API
-import "package:its_aa_pn_2025_cross_platform/http_cat_api.dart"; 
+import "package:flutter/services.dart"; // Import per Uint8List
+
+// Importazione CORRETTA: usa l'importazione relativa se il file è nella stessa cartella
+import "http_cat_api.dart"; 
 import "package:talker_dio_logger/talker_dio_logger_interceptor.dart";
 import "package:talker_riverpod_logger/talker_riverpod_logger.dart";
-import "package:its_aa_pn_2025_cross_platform/http_cat_api.dart";
 
 
 void main() {
@@ -22,9 +22,7 @@ void main() {
           ),
         ),
       ],
-      retry: (retryCount, error) {
-        return null;
-      },
+      // Ho rimosso il parametro 'retry' non standard in ProviderScope, se non necessario
       child: const MyApp(),
     ),
   );
@@ -113,8 +111,9 @@ class _HttpCatAppState extends ConsumerState<HttpCatApp> {
                       children: [
                         const Icon(Icons.error_outline, color: Colors.red, size: 48),
                         const SizedBox(height: 10),
+                        // Gestione dell'errore più specifica (es. solo il messaggio)
                         Text(
-                          "Errore nel caricare l'immagine:\n${error.toString().split(':').last.trim()}",
+                          "Errore nel caricare l'immagine:\n${error is DioException ? error.message : error.toString().split(':').last.trim()}",
                           textAlign: TextAlign.center,
                           style: const TextStyle(color: Colors.red),
                         ),
@@ -164,12 +163,15 @@ final FutureProviderFamily<Uint8List, int> httpCatProvider =
   final client = Dio();
   client.interceptors.add(logger);
   
+  // Rimuove l'interceptor alla fine per evitare memory leak
+  ref.onDispose(() {
+    client.interceptors.remove(logger);
+    client.close();
+  });
+
   final api = HttpCatApi(client);
   final result = await api.fetchCatImage(statusCode);
 
   // Converte List<int> in Uint8List per l'uso con Image.memory
   return Uint8List.fromList(result);
 });
-
-// Ho rimosso i vecchi provider dei personaggi e degli episodi per mantenere main.dart pulito 
-// e focalizzato su HttpCatApp.

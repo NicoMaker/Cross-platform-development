@@ -1,10 +1,11 @@
 // main.dart
 
+import "dart:typed_data"; // Necessario per Uint8List
 import "package:dio/dio.dart";
 import "package:flutter/foundation.dart";
 import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
-import "package:flutter/services.dart"; // Import per Uint8List
+import "package:flutter/services.dart"; // Import per Uint8List (anche se viene da dart:typed_data)
 
 // Importazione CORRETTA: usa l'importazione relativa se il file è nella stessa cartella
 import "http_cat_api.dart"; 
@@ -87,13 +88,19 @@ class _HttpCatAppState extends ConsumerState<HttpCatApp> {
                     ),
                   ),
                   keyboardType: TextInputType.number,
-                  textAlign: TextAlign:center,
+                  textAlign: TextAlign.center, // CORREZIONE: rimosso il doppio ':TextAlign'
                   onSubmitted: (value) {
                     final newCode = int.tryParse(value);
-                    if (newCode != null) {
+                    // Aggiungi un controllo sul range dei codici HTTP
+                    if (newCode != null && newCode >= 100 && newCode < 600) {
                       setState(() {
                         statusCode = newCode;
                       });
+                    } else {
+                        // Opzionale: mostrare un feedback all'utente per codice non valido
+                        ScaffoldMessenger.of(context).showSnackBar(
+                           const SnackBar(content: Text("Inserisci un codice HTTP valido (100-599).")),
+                        );
                     }
                   },
                 ),

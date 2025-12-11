@@ -4,6 +4,7 @@ import 'package:dio/dio.dart';
 
 class HttpCatApi {
   const HttpCatApi(this.client);
+
   final Dio client;
 
   /// Fetches the raw image bytes for a given HTTP status code.
@@ -15,9 +16,13 @@ class HttpCatApi {
         responseType: ResponseType.bytes, // Richiediamo bytes anziché JSON
       ),
     );
+
     if (response.data == null) {
-      throw Exception("Impossibile caricare l'immagine del gatto per lo stato $statusCode");
+      throw Exception(
+        "Impossibile caricare l'immagine del gatto per lo stato $statusCode",
+      );
     }
+
     return response.data!;
   }
 }

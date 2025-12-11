@@ -87,7 +87,7 @@ class _HttpCatAppState extends ConsumerState<HttpCatApp> {
                     ),
                   ),
                   keyboardType: TextInputType.number,
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign:center,
                   onSubmitted: (value) {
                     final newCode = int.tryParse(value);
                     if (newCode != null) {
@@ -140,6 +140,10 @@ class _HttpCatAppState extends ConsumerState<HttpCatApp> {
                       ),
                     ),
                   ),
+                  // ADDED: Wildcard case for exhaustive switch matching
+                  _ => const Center(
+                    child: Text("Stato Provider inatteso."),
+                  ),
                 },
               ),
               const SizedBox(height: 10),
@@ -156,8 +160,8 @@ class _HttpCatAppState extends ConsumerState<HttpCatApp> {
 }
 
 // 2. Riverpod: Provider che fetcha i byte dell'immagine per un codice di stato specifico
-// Restituisce un Uint8List che è l'equivalente Flutter/Dart di List<int>
-final FutureProviderFamily<Uint8List, int> httpCatProvider =
+// Utilizza 'final' e lascia a Dart inferire il tipo al posto di 'FutureProviderFamily'
+final httpCatProvider =
     FutureProvider.autoDispose.family<Uint8List, int>((ref, statusCode) async {
   final logger = TalkerDioLogger();
   final client = Dio();

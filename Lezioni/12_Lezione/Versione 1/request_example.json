@@ -1,0 +1,1736 @@
+{
+    "total": 1060,
+    "items": [
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "lasvegas"
+            ],
+            "details": "\u003Cp\u003EThe Federal Bureau of Investigation's Las Vegas Field Office in Nevada is seeking the public's assistance in identifying the unknown suspect responsible for the defacement of Federal Buildings located at 501 South Las Vegas Boulevard, Las Vegas, Nevada, on the evening of June 11, 2025.  The unknown Black male was seen spray painting Federal Property.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/defacement-of-federal-property",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-07-08T19:27:28+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Las Vegas, Nevada\r\nJune 11, 2025",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "DEFACEMENT OF FEDERAL PROPERTY",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2025-06-25T09:42:00",
+            "weight_max": null,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv4.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv4.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv4.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv2.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv2.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv2.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv5.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv5.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv5.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv1.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv1.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-property/lv1.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $1,000 for information leading to the arrest and conviction of this unknown suspect.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "located",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "07f33176ac684ec19ac5a2794bdf196f",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/07f33176ac684ec19ac5a2794bdf196f"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "louisville"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/cei/terry-matthews",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Matthews has tattoos on his left and right forearms, his right wrist, and his right arm.",
+            "weight": "201 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/cei/terry-matthews/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-07-02T14:33:15+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003ETerry Matthews is wanted for his alleged involvement in a drug trafficking organization that was responsible for methamphetamine and fentanyl trafficking offenses, firearms offenses, and money laundering. On May 6, 2025, a federal arrest warrant was issued for Matthews in the United States District Court, Western District of Kentucky, Louisville, Kentucky, after he was charged with Conspiracy to Possess with Intent to Distribute 400 Grams or More of Fentanyl; Distribution of 400 Grams or More of a Fentanyl Mixture; Distribution of 40 Grams or More of a Fentanyl Mixture; Distribution of Fentanyl; Possession of a Firearm in Furtherance of a Drug Trafficking Crime; Firearms Trafficking; Possession of a Firearm by a Prohibited Person; and Distribution of a Controlled Substance.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "description": "Conspiracy to Possess with Intent to Distribute 400 Grams or More of Fentanyl (One Count); Distribution of 400 Grams or More of a Fentanyl Mixture (One Count); Distribution of 40 Grams or More of a Fentanyl Mixture (Three Counts); Distribution of Fentanyl (Two Counts); Possession of a Firearm in Furtherance of a Drug Trafficking Crime (One Count); Firearms Trafficking (One Count); Possession of a Firearm by a Prohibited Person (One Count); Distribution of a Controlled Substance (One Count)",
+            "person_classification": "Main",
+            "hair": "brown",
+            "reward_max": 0,
+            "title": "TERRY MATTHEWS",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": "Black",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/cei/terry-matthews",
+            "ncic": null,
+            "height_min": 73,
+            "race": "black",
+            "publication": "2025-07-02T08:03:00",
+            "weight_max": 201,
+            "subjects": [
+                "Criminal Enterprise Investigations"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/cei/terry-matthews/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/cei/terry-matthews/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/cei/terry-matthews/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/cei/terry-matthews/matthews.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/cei/terry-matthews/matthews.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/cei/terry-matthews/matthews.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": null,
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "September 25, 1980"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 201,
+            "hair_raw": "Brown",
+            "uid": "de4766a45bf4435bb3303b6da7d1febb",
+            "sex": "Male",
+            "height_max": 73,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/de4766a45bf4435bb3303b6da7d1febb"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": null,
+            "details": "\u003Cp\u003EIn June of 2021, Celeste Doghmi was reportedly last seen by her ex-boyfriend, leaving their apartment on 85 Academy Street in Auburn, Maine, and has not been seen or heard from since. She had recently given birth to a child, was in the process of enrolling for college, and was last active on social media on August 2, 2021. Her disappearance went unreported until 2023, when her ex-boyfriend was arrested for domestic abuse and the Maine Office of Child and Family Services began to search for Doghmi. The Maine State Police Department is asking for assistance in locating Doghmi or obtaining details regarding her disappearance.\u003C/p\u003E",
+            "locations": null,
+            "age_range": "27 years old (at time of disappearance)",
+            "path": "/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Doghmi has a large tattoo on her right leg of a dream catcher with feathers, and a tattoo of the word  “John” on her left breast.",
+            "weight": "110 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-07-02T12:35:52+00:00",
+            "age_min": 27,
+            "caution": null,
+            "description": "Auburn, Maine\r\nJune 1, 2021",
+            "person_classification": "Main",
+            "hair": "brown",
+            "reward_max": 0,
+            "title": "CELESTE DIANA DOGHMI - AUBURN, MAINE",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine",
+            "ncic": null,
+            "height_min": 62,
+            "race": null,
+            "publication": "2025-07-02T07:26:00",
+            "weight_max": 110,
+            "subjects": [
+                "ViCAP Missing Persons"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi2.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi2.png",
+                    "thumb": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi2.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi3.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi3.png",
+                    "thumb": "https://www.fbi.gov/wanted/vicap/missing-persons/celeste-diana-doghmi---auburn-maine/doghmi3.png/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003EDoghmi has ear piercings.\u003C/p\u003E",
+            "reward_text": null,
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": 110,
+            "hair_raw": "Brown, longer than shoulder length",
+            "uid": "5126982a11c6494fa53fb44d54c56206",
+            "sex": "Female",
+            "height_max": 62,
+            "additional_information": null,
+            "age_max": 27,
+            "pathId": "https://api.fbi.gov/@wanted-person/5126982a11c6494fa53fb44d54c56206"
+        },
+        {
+            "possible_states": null,
+            "warning_message": "SHOULD BE CONSIDERED ARMED AND DANGEROUS",
+            "field_offices": [
+                "miami"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/additional/vitelhomme-innocent",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": null,
+            "weight": "150 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/download.pdf",
+                    "name": "English"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/vitelhomme-innocent-french.pdf/@@download/file/vitelhomme-innocent.French.pdf",
+                    "name": "EN FRANAIS"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/vitelhomme-innocent-creole.pdf/@@download/file/vitelhomme-innocent.Creole.pdf",
+                    "name": "Nan Kreyl Ayisyen"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/vitelhomme-innocent-spanishfinal.pdf/@@download/file/vitelhomme-innocent.SpanishFINAL.pdf",
+                    "name": "EN ESPAOL"
+                }
+            ],
+            "modified": "2025-07-01T15:31:48+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003EVitel'Homme Innocent, as leader of the gang Kraze Barye, allegedly worked together with the gang 400 Mawozo, in the October 2021, kidnapping of 17 Christian Missionaries in Haiti, including five children, one as young as 8 months old. The hostages were allegedly held at gunpoint and most remained captive for 61 days. The gangs demanded ransom payment for each of the victims. Additionally, under the direction of Innocent, it is alleged that in October 2022, the Kraze Barye gang kidnapped a United States citizen in Haiti and killed a second United States citizen during the kidnapping attempt.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E\r\n\u003Cp\u003EVitel'Homme Innocent was charged with Conspiracy to Commit Hostage Taking; Hostage Taking; Conspiracy to Commit Hostage Taking Resulting in Death; and Attempted Hostage Taking Resulting in Death by indictments filed in the United States District Court for the District of Columbia.\u003C/p\u003E",
+            "description": "Conspiracy to Commit Hostage Taking; Hostage Taking; Conspiracy to Commit Hostage Taking Resulting in Death; Attempted Hostage Taking Resulting in Death",
+            "person_classification": "Main",
+            "hair": "black",
+            "reward_max": 0,
+            "title": "VITEL'HOMME INNOCENT",
+            "coordinates": [],
+            "place_of_birth": "Haiti",
+            "languages": null,
+            "race_raw": "Black",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent",
+            "ncic": null,
+            "height_min": 67,
+            "race": "black",
+            "publication": "2022-11-03T10:49:00",
+            "weight_max": 150,
+            "subjects": [
+                "Additional Violent Crimes"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/vhinnocent2.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/vhinnocent2.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/additional/vitelhomme-innocent/vhinnocent2.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The United States Department of State’s Transnational Organized Crime Rewards Program is offering a reward of up to $2 million for information leading to the arrest and/or conviction of Vitel'Homme Innocent.",
+            "nationality": "Haitian",
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "March 27, 1986"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 150,
+            "hair_raw": "Black",
+            "uid": "466379d55d804fdeabfc3944c5d44331",
+            "sex": "Male",
+            "height_max": 70,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/466379d55d804fdeabfc3944c5d44331"
+        },
+        {
+            "possible_states": null,
+            "warning_message": "SHOULD BE CONSIDERED A FLIGHT RISK",
+            "field_offices": [
+                "dallas"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/topten/cindy-rodriguez-singh",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Rodriguez Singh has tattoos on her back, left leg, right arm, right calf, right hand, and right leg.",
+            "weight": "120 to 140 pounds",
+            "poster_classification": "ten",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh/download.pdf",
+                    "name": "English"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh/singh-topten-hindi-web.pdf/@@download/file/Singh TopTen Hindi Web.pdf",
+                    "name": " "
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh/cindy-rodriguez-singh_tmwf-spanish-final.pdf/@@download/file/cindy-rodriguez-singh_TMWF.Spanish.final.pdf",
+                    "name": "EN ESPAOL"
+                }
+            ],
+            "modified": "2025-07-01T15:00:16+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003ECindy Rodriguez Singh is wanted for allegedly killing her 6-year-old son. On March 20, 2023, the Everman Police Department was asked by the Texas Department of Family and Protective Services to conduct a welfare check on the 6-year-old son of Cindy Rodriguez Singh, after the child had not been seen since October 2022. During the welfare check, Rodriguez Singh lied to investigators and indicated that the child was in Mexico with his biological father and had been there since November 2022.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E\r\n\u003Cp\u003EOn March 22, 2023, Rodriguez Singh, her husband, and 6 other juvenile children, boarded an international flight to India. Investigators confirmed that the missing child was not present and never boarded that flight. It is believed that Rodriguez Singh has not returned to the United States since boarding that flight. \u003Cbr /\u003E \u003C/p\u003E\r\n\u003Cp\u003EOn October 31, 2023, Cindy Rodriguez Singh was charged with Capital Murder in the District Court of Tarrant County, Fort Worth, Texas. On November 2, 2023, a federal arrest warrant was issued for Rodriguez Singh in the United States District Court, Northern District of Texas, Fort Worth, Texas, after she was charged with Unlawful Flight to Avoid Prosecution. \u003C/p\u003E",
+            "description": "Unlawful Flight to Avoid Prosecution - Capital Murder of a Person Under Ten Years of Age",
+            "person_classification": "Main",
+            "hair": "brown",
+            "reward_max": 0,
+            "title": "CINDY RODRIGUEZ SINGH",
+            "coordinates": [],
+            "place_of_birth": "Dallas, Texas",
+            "languages": null,
+            "race_raw": "White (Hispanic)",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": [
+                "Cecilia Rodriguez",
+                "Cindy Rodriguez",
+                "Cindy C. Rodriguez",
+                "Cindy Cecilia Rodriguez"
+            ],
+            "url": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh",
+            "ncic": null,
+            "height_min": 61,
+            "race": "hispanic",
+            "publication": "2024-07-11T13:11:00",
+            "weight_max": 140,
+            "subjects": [
+                "Ten Most Wanted Fugitives",
+                "Case of the Week"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/topten/cindy-rodriguez-singh/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003ERodriguez Singh has ties to or may visit India and Mexico.\u003C/p\u003E",
+            "reward_text": "The FBI is offering a reward of up to $250,000 for information leading to the arrest of Cindy Rodriguez Singh.",
+            "nationality": "American",
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "January 30, 1985"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 120,
+            "hair_raw": "Brown",
+            "uid": "fa908b7efed64603b9f95efa0288643f",
+            "sex": "Female",
+            "height_max": 63,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/fa908b7efed64603b9f95efa0288643f"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "albuquerque",
+                "phoenix"
+            ],
+            "details": "\u003Cp\u003EOn June 15, 2021, Ella Mae Begay was reported missing from her residence near Sweetwater, Arizona, by family members. Early that morning, her vehicle, a Ford F-150, was seen leaving the residence. It was believed that the truck may have been driven toward Thoreau, New Mexico, and may have proceeded in the direction of Albuquerque, New Mexico. Ella Mae’s vehicle was described as a 2005 Ford F-150, gray or silver in color, with a broken tailgate that would not close with Arizona license plate AFE7101.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/kidnap/ella-mae-begay",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": null,
+            "weight": "125 pounds",
+            "poster_classification": "missing",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/download.pdf",
+                    "name": "English"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella-mae-begay_navajo.pdf/@@download/file/ella-mae-begay_Navajo.pdf",
+                    "name": "DIN BIZAAD KEHGO"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/begayspanish.pdf/@@download/file/BegaySpanish.pdf",
+                    "name": "EN ESPAOL"
+                }
+            ],
+            "modified": "2025-07-01T14:39:51+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "June 15, 2021\r\nSweetwater, Arizona",
+            "person_classification": "Main",
+            "hair": "brown",
+            "reward_max": 0,
+            "title": "ELLA MAE BEGAY",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": [
+                "English",
+                "Navajo"
+            ],
+            "race_raw": "Native American",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay",
+            "ncic": null,
+            "height_min": 60,
+            "race": "native",
+            "publication": "2022-10-14T15:36:00",
+            "weight_max": 125,
+            "subjects": [
+                "Kidnappings and Missing Persons",
+                "Indian Country"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella2.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella2.png",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella2.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella3.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella3.png",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/ella-mae-begay/ella3.png/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $5,000 for information leading to the identification, arrest, and conviction of the person or persons responsible for the disappearance of Ella Mae Begay.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "September 28, 1958"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 125,
+            "hair_raw": "Brown",
+            "uid": "c02ec52912ac4f4db084f6205c3849e7",
+            "sex": "Female",
+            "height_max": 60,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/c02ec52912ac4f4db084f6205c3849e7"
+        },
+        {
+            "possible_states": null,
+            "warning_message": "SHOULD BE CONSIDERED ARMED AND DANGEROUS",
+            "field_offices": [
+                "neworleans"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/law-enforcement-assistance/escaped-inmates-new-orleans-louisiana",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "law-enforcement-assistance",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/law-enforcement-assistance/escaped-inmates-new-orleans-louisiana/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-27T22:48:06+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003EThe FBI's New Orleans Field Office is assisting the Orleans Parish Sheriff's Office in Louisiana with the search for and apprehension of Derrick Groves, the last of the state inmates who escaped from the Orleans Parish Jail on the morning of May 16, 2025. The FBI routinely offers assistance to our law enforcement partners, to provide additional manpower and specialized resources.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "description": "Escaped Inmate\r\nNew Orleans, Louisiana",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "DERRICK GROVES",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/law-enforcement-assistance/escaped-inmates-new-orleans-louisiana",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2025-05-16T15:18:00",
+            "weight_max": null,
+            "subjects": [
+                "Law Enforcement Assistance"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/law-enforcement-assistance/escaped-inmates-new-orleans-louisiana/@@images/image/large",
+                    "caption": "Derrick Groves",
+                    "original": "https://www.fbi.gov/wanted/law-enforcement-assistance/escaped-inmates-new-orleans-louisiana/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/law-enforcement-assistance/escaped-inmates-new-orleans-louisiana/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $20,000 for information leading to the arrest of Derrick Groves.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "29dff6ac283a47029da519bc54659e27",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/29dff6ac283a47029da519bc54659e27"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "losangeles"
+            ],
+            "details": "\u003Cp\u003EThe Federal Bureau of Investigation's Los Angeles Field Office in California is seeking the public's assistance in identifying the unknown suspect who was engaged in both the destruction of federal government property and an assault on federal agents during the period of civil unrest in Paramount, California, on June 7, 2025.  He may have a tattoo on his right bicep and was wearing a gold crucifix chain around his neck. \u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/destruction-of-property-and-assault",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-27T15:51:01+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Paramount, California\r\nJune 7, 2025",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "DESTRUCTION OF PROPERTY AND ASSAULT",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2025-06-25T08:03:00",
+            "weight_max": null,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub2.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub2.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub2.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub3.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub3.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub3.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub4.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub4.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/destruction-of-property-and-assault/launsub4.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": null,
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "cc7f9ba607774655a42907056542ef17",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/cc7f9ba607774655a42907056542ef17"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "atlanta"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/cyber/fraudulent-remote-it-workers-from-dprk",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-26T21:19:41+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003EKim Kwang Jin, Kang Tae Bok, Jong Pong Ju, and Chang Nam Il, are wanted for their alleged involvement with a scheme to steal virtual currency from two companies, valued at over $900,000 at the time of the theft, and to launder the proceeds of those thefts in 2022.  Using fraudulent names and identification documents, the men allegedly gained employment at two companies as Remote IT Workers.  With these roles, these individuals allegedly abused their access at the companies to steal virtual currency.  The individuals worked and travelled together as a team.  Federal arrest warrants were issued for the men on June 24, 2025, in the United States District Court, Northern District of Georgia, Atlanta, Georgia, after they were charged with Wire Fraud Conspiracy, Wire Fraud, and Money Laundering Conspiracy.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E\r\n\u003Cp\u003EThe men speak English and Korean and have ties to the United Arab Emirates and Laos.  \u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E\r\n\u003Cp\u003EKim Kwang Jin is described as an Asian male, Date of Birth: January 24, 1998, with brown hair and brown eyes.  He has an alias of “P.S.”\u003C/p\u003E\r\n\u003Cp\u003EKang Tae Bok is described as an Asian male, Date of Birth: February 22, 1997, with brown hair and brown eyes.  He has an alias of “Wong Shao Onn.”\u003C/p\u003E\r\n\u003Cp\u003EJong Pong Ju is described as an Asian male, Date of Birth: January 25, 1997, with brown hair and brown eyes.  He has an alias of “Bryan Cho.”\u003C/p\u003E\r\n\u003Cp\u003EChang Nam IL is described as an Asian male, date of Birth: October 7, 1999, with brown hair and brown eyes.  He has aliases of “Bong Chee Shen” and “Peter Xiao.”\u003C/p\u003E",
+            "description": "Wire Fraud Conspiracy; Wire Fraud; Money Laundering Conspiracy",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "FRAUDULENT REMOTE IT WORKERS FROM DPRK",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2025-06-24T09:45:00",
+            "weight_max": null,
+            "subjects": [
+                "Cyber's Most Wanted"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/jin.jpg/@@images/image/large",
+                    "caption": "Kim Kwang Jin",
+                    "original": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/jin.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/jin.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/bok.jpg/@@images/image/large",
+                    "caption": "Kang Tae Bok",
+                    "original": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/bok.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/bok.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/ju.jpg/@@images/image/large",
+                    "caption": "Jong Pong Ju",
+                    "original": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/ju.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/ju.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/il.jpg/@@images/image/large",
+                    "caption": "Chang Nam Il",
+                    "original": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/il.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/cyber/fraudulent-remote-it-workers-from-dprk/il.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The Rewards For Justice Program, United States Department of State, is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea (Democratic People’s Republic of Korea, DPRK), including the exportation of workers from North Korea to generate revenue, money laundering, and specified cyber-activity and actions that support North Korea’s weapons of mass destruction proliferation.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "c67f1fe3ba634acfbaadde07cc238635",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/c67f1fe3ba634acfbaadde07cc238635"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "springfield"
+            ],
+            "details": "\u003Cp\u003EThe Federal Bureau of Investigation's Springfield Field Office in Illinois is seeking the public's assistance in identifying the unknown suspect responsible for the defacement of the Senator Paul Simon Federal Building located at 250 West Cherry Street, Carbondale, Illinois, on the evening of June 10, 2025.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/defacement-of-federal-building",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-building/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-26T13:54:17+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Carbondale, Illinois\r\nJune 10, 2025",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "DEFACEMENT OF FEDERAL BUILDING",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-building",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2025-06-18T09:29:00",
+            "weight_max": null,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-building/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-building/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/defacement-of-federal-building/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $1,000 for information leading to the arrest and conviction of the unknown suspect.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "ac9251d92f7d46c6aba522fe37557777",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/ac9251d92f7d46c6aba522fe37557777"
+        },
+        {
+            "possible_states": null,
+            "warning_message": "SHOULD BE CONSIDERED ARMED AND DANGEROUS",
+            "field_offices": [
+                "philadelphia"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/murders/miguel-angel-aguilar-ojeda",
+            "occupations": [
+                "Painter",
+                "Construction Worker"
+            ],
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Ojeda has tattoos on both of his wrists, including the name \"Miguelito\" in black script with a yellow crown on his right wrist.",
+            "weight": "240 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/murders/miguel-angel-aguilar-ojeda/download.pdf",
+                    "name": "English"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/murders/miguel-angel-aguilar-ojeda/ojedaspanish2.pdf/@@download/file/OjedaSpanish2.pdf",
+                    "name": "EN ESPAOL"
+                }
+            ],
+            "modified": "2025-06-26T12:34:10+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003EMiguel Angel Aguilar Ojeda is wanted for allegedly killing his wife on October 27, 2024, in Philadelphia, Pennsylvania.  On October 30, 2024, the Commonwealth of Pennsylvania, County of Philadelphia, issued an arrest warrant for Ojeda after he was charged with Murder, Possessing Instruments of Crime, Abuse of Corpse, and Tampering with Evidence.  On November 21, 2024, a federal arrest warrant was issued for Ojeda in the United States District Court, Eastern District of Pennsylvania, Philadelphia, Pennsylvania, after he was charged with Unlawful Flight to Avoid Prosecution. \u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "description": "Unlawful Flight to Avoid Prosecution - Murder, Possessing Instruments of Crime, Abuse of Corpse, Tampering with Evidence",
+            "person_classification": "Main",
+            "hair": "black",
+            "reward_max": 0,
+            "title": "MIGUEL ANGEL AGUILAR OJEDA",
+            "coordinates": [],
+            "place_of_birth": "Mexico",
+            "languages": [
+                "Spanish",
+                "English"
+            ],
+            "race_raw": "White (Hispanic)",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": [
+                "Miguel Aguilar",
+                "\"Cara Gorda\""
+            ],
+            "url": "https://www.fbi.gov/wanted/murders/miguel-angel-aguilar-ojeda",
+            "ncic": null,
+            "height_min": 64,
+            "race": "hispanic",
+            "publication": "2025-04-03T11:36:00",
+            "weight_max": 240,
+            "subjects": [
+                "Violent Crimes - Murders"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/miguel-angel-aguilar-ojeda/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/murders/miguel-angel-aguilar-ojeda/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/murders/miguel-angel-aguilar-ojeda/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003EOjeda has ties to Camden, New Jersey; Philadelphia, Pennsylvania; and Mexico.\u003C/p\u003E",
+            "reward_text": "The FBI is offering a reward of up to $25,000 for information leading to the location and arrest of Miguel Angel Aguilar Ojeda.",
+            "nationality": "Mexican",
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "August 5, 1990"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 240,
+            "hair_raw": "Black",
+            "uid": "9f9cc060851c445a99afee99bdada94b",
+            "sex": "Male",
+            "height_max": 64,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/9f9cc060851c445a99afee99bdada94b"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "newark"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/additional/andres-felipe-pineda-mogollon",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": null,
+            "weight": "175 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/additional/andres-felipe-pineda-mogollon/download.pdf",
+                    "name": "English"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/additional/andres-felipe-pineda-mogollon/mogollonspanish2.pdf/@@download/file/mogollonSpanish2.pdf",
+                    "name": "EN ESPAOL"
+                }
+            ],
+            "modified": "2025-06-24T14:31:24+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003EThe FBI's Newark Field Office in New Jersey is assisting with the search for and apprehension of Andres Felipe Pineda Mogollon, an Immigration and Customs Enforcement (ICE) detainee who escaped from the Delaney Hall Detention Facility in Newark, New Jersey, on June 12, 2025.  On June 13, 2025, a federal arrest warrant was issued for Mogollon in the United States District Court for the District of New Jersey, Newark, New Jersey, after he was charged with Escape from the Custody of an Institution or Officer.  He was arrested previously on local petty larceny and residential burglary charges.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "description": "Escape from the Custody of an Institution or Officer",
+            "person_classification": "Main",
+            "hair": "black",
+            "reward_max": 0,
+            "title": "ANDRES FELIPE PINEDA MOGOLLON",
+            "coordinates": [],
+            "place_of_birth": "Colombia",
+            "languages": null,
+            "race_raw": "White (Hispanic)",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/additional/andres-felipe-pineda-mogollon",
+            "ncic": null,
+            "height_min": 70,
+            "race": "hispanic",
+            "publication": "2025-06-17T08:40:00",
+            "weight_max": 175,
+            "subjects": [
+                "Additional Violent Crimes"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/additional/andres-felipe-pineda-mogollon/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/additional/andres-felipe-pineda-mogollon/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/additional/andres-felipe-pineda-mogollon/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003EMogollon's last known address was in Newark, New Jersey, and he is known to have ties to Queens, New York.\u003C/p\u003E",
+            "reward_text": "The FBI is offering a reward of up to $25,000 for information leading to the arrest of Andres Felipe Pineda Mogollon.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "June 3, 2000"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 175,
+            "hair_raw": "Black",
+            "uid": "aa7f6bae71e9403bb4b167124a88d2a0",
+            "sex": "Male",
+            "height_max": 70,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/aa7f6bae71e9403bb4b167124a88d2a0"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "sanfrancisco"
+            ],
+            "details": "\u003Cp\u003EHeather Desiree McGee was last seen in Stockton, California, on January 20, 2025.  She is thought to possibly be a victim of sex trafficking.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/kidnap/heaven-desiree-mcgee",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "McGee has the following tattoos: the words \"Aaron Pryor\" above a red rose below her left collar bone, unknown words just above her left and right collarbone, at least four butterfly tattoos on her chest/sternum, possible Chinese characters on her left forearm just above her wrist, and the words \"Darius III\" on her right forearm (posterior).",
+            "weight": "140 pounds",
+            "poster_classification": "missing",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-23T18:27:10+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "January 20, 2025\r\nStockton, California",
+            "person_classification": "Main",
+            "hair": "black",
+            "reward_max": 0,
+            "title": "HEAVEN DESIREE MCGEE",
+            "coordinates": [],
+            "place_of_birth": "California",
+            "languages": null,
+            "race_raw": "Black",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee",
+            "ncic": null,
+            "height_min": 60,
+            "race": "black",
+            "publication": "2025-06-23T11:29:00",
+            "weight_max": 140,
+            "subjects": [
+                "Kidnappings and Missing Persons"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee1.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee1.png",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee1.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee2.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee2.png",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee2.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee4.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee4.png",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/heaven-desiree-mcgee/mcgee4.png/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003EMcGee has ties to Oakland, Stockton, and San Jose, California.\u003C/p\u003E",
+            "reward_text": "The FBI is offering a reward of up to $10,000 for information leading to the location of Heaven Desiree McGee.",
+            "nationality": "American",
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "March 4, 2004"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 140,
+            "hair_raw": "Black",
+            "uid": "6a2f98bb830244d39553c5c49fb8556e",
+            "sex": "Female",
+            "height_max": 60,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/6a2f98bb830244d39553c5c49fb8556e"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "portland"
+            ],
+            "details": "\u003Cp\u003EThe Federal Bureau of Investigation’s Portland Field Office is asking for the public’s help in identifying the individual(s) responsible for the shooting death of 22-year-old Geavauntae Sherman. On June 20, 2022, Sherman was shot and killed at Raymond City Park in Portland, Oregon, while attending his sister’s birthday party.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/geavauntae-sherman",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/geavauntae-sherman/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-23T13:04:35+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Homicide Victim\r\nPortland, Oregon\r\nJune 20, 2022",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "GEAVAUNTAE SHERMAN",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/geavauntae-sherman",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2023-04-27T07:53:00",
+            "weight_max": null,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/geavauntae-sherman/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/geavauntae-sherman/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/geavauntae-sherman/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $15,000 for information leading to the arrest and conviction of the individual(s) responsible for the murder of Geavauntae Sherman.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "866ad95c8f544b51be2a64d21e5797b2",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/866ad95c8f544b51be2a64d21e5797b2"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "indianapolis"
+            ],
+            "details": "\u003Cp\u003EDawnita Wilkerson was last seen on June 21, 2020, at 8:16 p.m., at a local Evansville, Indiana, motel getting into a silver/pewter-colored 2004 Chevy Suburban. (Photo displayed above.) Dawnita’s phone was shut off by the next morning. Her family reported her missing when she didn’t call her mother or her daughters, as she usually did. Dawnita has several medical conditions that require medication that she is without.\u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/kidnap/dawnita-wilkerson",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Dawnita Wilkerson has multiple tattoos, including a heart on her lower back, praying hands with the name \"Timmy\" on her upper-right shoulder, and a cross on her upper-left shoulder.",
+            "weight": "145 pounds (At the time of her disappearance)",
+            "poster_classification": "missing",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-18T14:57:46+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "June 21, 2020 \r\nEvansville, Indiana",
+            "person_classification": "Main",
+            "hair": "black",
+            "reward_max": 0,
+            "title": "DAWNITA WILKERSON",
+            "coordinates": [],
+            "place_of_birth": "Evansville, Indiana",
+            "languages": null,
+            "race_raw": "Black",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson",
+            "ncic": null,
+            "height_min": 63,
+            "race": "black",
+            "publication": "2021-02-09T14:46:00",
+            "weight_max": 145,
+            "subjects": [
+                "Kidnappings and Missing Persons"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/chevy-suburban-2016-2.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/chevy-suburban-2016-2.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/chevy-suburban-2016-2.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/chevy-suburban-2016-3.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/chevy-suburban-2016-3.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/chevy-suburban-2016-3.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/wilkerson_d-4.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/wilkerson_d-4.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/kidnap/dawnita-wilkerson/wilkerson_d-4.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": null,
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "March 14, 1976"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 145,
+            "hair_raw": "Black",
+            "uid": "a7274438e24646648b20b3571801cdce",
+            "sex": "Female",
+            "height_max": 63,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/a7274438e24646648b20b3571801cdce"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "phoenix"
+            ],
+            "details": "\u003Cp\u003EOn June 14, 2013, Adrienne Celeste Salinas, a 19-year-old woman from Tempe, Arizona, attended a birthday party at her residence for a friend.\u003C/p\u003E\r\n\u003Cp\u003EIn the early morning hours of June 15, 2013, Salinas left the party and then returned, speaking briefly with a roommate. At about 4:00 a.m., Salinas was seen leaving the party again. A few minutes later, her vehicle was involved in a single-car accident a short distance from her residence. Salinas returned to her apartment unseen, changed clothes, and called a cab.\u003C/p\u003E\r\n\u003Cp\u003EAt around 5:00 a.m., Salinas sent a text message to her boyfriend stating she was going to his residence. Salinas then spoke with the cab driver, confirming that he was en route to pick her up at a convenience store in close proximity to her residence. Shortly thereafter the cab driver arrived and was unable to locate Salinas or reach her by phone.\u003C/p\u003E\r\n\u003Cp\u003ESubsequent attempts to contact Salinas' phone went directly to voice mail. Salinas was reported missing on June 16, 2013 (Father's Day), after she was unable to be located by family and friends.\u003C/p\u003E\r\n\u003Cp\u003EOn August 6, 2013, two weeks after a substantial storm and flooding of the area, Salinas' remains were located in a desert wash basin behind a residence in Apache Junction, Arizona.\u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/adrienne-celeste-salinas",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Salinas had a small tattoo of a tribal sun on her neck. She also had a lip piercing with a clear stone, and a four-inch scar on her back.",
+            "weight": "100 to 110 pounds",
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/download.pdf",
+                    "name": "English"
+                },
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/adrienne-celeste-salinas-spanish.pdf/@@download/file/adrienne-celeste-salinas.Spanish.pdf",
+                    "name": "EN ESPAOL"
+                }
+            ],
+            "modified": "2025-06-18T13:34:17+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Suspicious Death\r\nTempe, Arizona\r\nJune 15, 2013",
+            "person_classification": "Victim",
+            "hair": "black",
+            "reward_max": 0,
+            "title": "ADRIENNE CELESTE SALINAS",
+            "coordinates": [],
+            "place_of_birth": "Arizona",
+            "languages": null,
+            "race_raw": "White (Hispanic)",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas",
+            "ncic": null,
+            "height_min": 65,
+            "race": "hispanic",
+            "publication": "2015-06-05T07:00:00",
+            "weight_max": 110,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/salinas-3.jpg/@@images/image/large",
+                    "caption": "Photograph taken in 2013",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/salinas-3.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/salinas-3.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/salinas-tattoo.jpg/@@images/image/large",
+                    "caption": "Tribal sun tattoo",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/salinas-tattoo.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/adrienne-celeste-salinas/salinas-tattoo.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003ESalinas drove a white, 2002 Mercury Sable (which has been recovered).\u003C/p\u003E",
+            "reward_text": "The FBI is offering a reward of up to $20,000 for information leading to the identification, arrest, and conviction of the person(s) responsible for the suspicious death of Adrienne Celeste Salinas.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "November 5, 1993"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 100,
+            "hair_raw": "Black",
+            "uid": "52edbfb5-9f95-40e3-8af5-d1038f2fce38",
+            "sex": "Female",
+            "height_max": 65,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/52edbfb5-9f95-40e3-8af5-d1038f2fce38"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": null,
+            "details": "\u003Cp\u003EOn November 24, 1977, 34-year-old Glenna Jane West was last seen in St. Joseph, Michigan.  She was reported missing and has not been heard from since. It is possible she may have been driving a late sixties to early seventies model greenish brown, full-sized station wagon.  \u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E",
+            "locations": null,
+            "age_range": "34 years old (at time of disappearance)",
+            "path": "/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": null,
+            "weight": "140 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/west.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-18T12:39:15+00:00",
+            "age_min": 34,
+            "caution": null,
+            "description": "St. Joseph, Michigan\r\nNovember 24, 1977",
+            "person_classification": "Main",
+            "hair": "brown",
+            "reward_max": 0,
+            "title": "GLENNA JANE WEST - ST. JOSEPH, MICHIGAN",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": "White",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan",
+            "ncic": null,
+            "height_min": 66,
+            "race": "white",
+            "publication": "2025-06-18T07:34:00",
+            "weight_max": 140,
+            "subjects": [
+                "ViCAP Missing Persons"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/west2.jpg/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/west2.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/vicap/missing-persons/glenna-jane-west---st-joseph-michigan/west2.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": "\u003Cp\u003EWest was last seen wearing a red, white, and blue blouse, a long dark skirt, light tan boots, and a white care coat or maroon long coat.\u003C/p\u003E",
+            "reward_text": null,
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": 140,
+            "hair_raw": "Brown",
+            "uid": "399fd16de1844f13956c61a540e4d9bb",
+            "sex": "Female",
+            "height_max": 66,
+            "additional_information": null,
+            "age_max": 34,
+            "pathId": "https://api.fbi.gov/@wanted-person/399fd16de1844f13956c61a540e4d9bb"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "sanfrancisco"
+            ],
+            "details": "\u003Cp\u003EThe Oakland Police Department and the Federal Bureau of Investigation are asking for the public’s assistance in identifying two individuals responsible for the homicide of Aya Nakano in Oakland, California.\u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E\r\n\u003Cp\u003EOn June 12, 2013, around 11 p.m., Aya Nakano, one hour away from his 23rd birthday, was driving to his home in Emeryville, California. At the intersection of Stanford Avenue and Market Street in Oakland, California, Nakano's vehicle was hit by a silver four-door sedan with tint on the rear windows. Nakano stopped near the intersection of Stanford Avenue and Market Street in Oakland. The suspects also stopped. They exited the silver sedan and shot Nakano, fatally wounding him. The suspects then left the scene in the silver sedan.\u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/aya-nakano",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-14T20:46:27+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Murder Victim\r\nOakland, California\r\nJune 12, 2013",
+            "person_classification": "Victim",
+            "hair": null,
+            "reward_max": 0,
+            "title": "AYA NAKANO",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/aya-nakano",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2014-12-19T07:00:00",
+            "weight_max": null,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/silver-car.jpg/@@images/image/large",
+                    "caption": "Surveillance photo of suspects vehicle",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/silver-car.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/aya-nakano/silver-car.jpg/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $25,000 for information leading to the identification, arrest, and prosecution of those responsible for the death of Aya Nakano.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "855ddd82-4e82-4638-a0c8-39e6863bc9ca",
+            "sex": "",
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/855ddd82-4e82-4638-a0c8-39e6863bc9ca"
+        },
+        {
+            "possible_states": null,
+            "warning_message": "SHOULD BE CONSIDERED ARMED AND DANGEROUS",
+            "field_offices": [
+                "chicago"
+            ],
+            "details": null,
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/murders/joseph-matos",
+            "occupations": null,
+            "eyes_raw": "Brown",
+            "scars_and_marks": "Matos has the following tattoos: \"M-Town Kings\" on the right side of his neck; \"1300\" on the left side of his neck; \"Move in Silence\" on his right hand; “Trust no one” on his left hand; \"MOST WANTED\" on his belly; \"Heavensent, Hellbound\" on his forearms; and \"Jesus Christopher Matos\" on his chest.",
+            "weight": "Approximately 220 pounds",
+            "poster_classification": "default",
+            "possible_countries": null,
+            "eyes": "brown",
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/murders/joseph-matos/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-13T18:25:51+00:00",
+            "age_min": null,
+            "caution": "\u003Cp\u003EJoseph Matos, also known as \"Troubles\", is wanted for his alleged involvement in the murder of a National Guard member in the Belmont Cragin neighborhood of Chicago, Illinois on July 3, 2021. The victim had just graduated from basic training and was walking to his car after leaving a party over the Fourth of July weekend when he was alleged to have been shot and killed by Matos and a fellow gang member.\u003C/p\u003E\r\n\u003Cp\u003EMatos is believed to be a member of the Milwaukee Kings street gang, a criminal organization whose members and associates have engaged in narcotics trafficking and committed acts of violence, including murder and assault, to acquire and preserve the gang’s perceived territory on the North Side of Chicago, Illinois.\u003C/p\u003E\r\n\u003Cp\u003EOn May 14, 2024, an arrest warrant was issued for Matos in the United States District Court, Northern District of Illinois, Eastern Division, Chicago, Illinois, after he was charged with murder in aid of racketeering and murder through the use of a firearm.\u003C/p\u003E",
+            "description": "Murder in Aid of Racketeering and Murder Through the Use of a Firearm",
+            "person_classification": "Main",
+            "hair": "brown",
+            "reward_max": 0,
+            "title": "JOSEPH MATOS",
+            "coordinates": [],
+            "place_of_birth": "Illinois",
+            "languages": null,
+            "race_raw": "White (Hispanic)",
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": [
+                "\"Troubles\"",
+                "\"Joey\"",
+                "Joseph Matosaka"
+            ],
+            "url": "https://www.fbi.gov/wanted/murders/joseph-matos",
+            "ncic": "W355060022",
+            "height_min": 74,
+            "race": "hispanic",
+            "publication": "2024-06-25T15:30:00",
+            "weight_max": 220,
+            "subjects": [
+                "Violent Crime - Murders"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/@@images/image/large",
+                    "caption": "Joseph Matos",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-forearm-tattoos.png/@@images/image/large",
+                    "caption": "Matos Forearm Tattoos",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-forearm-tattoos.png",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-forearm-tattoos.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/necktattoos.jpg/@@images/image/large",
+                    "caption": "Neck Tattoos",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/necktattoos.jpg",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/necktattoos.jpg/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-1300-neck-tattoo.png/@@images/image/large",
+                    "caption": "Matos \"1300\" Neck Tattoo",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-1300-neck-tattoo.png",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-1300-neck-tattoo.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-neck-tattoo.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-neck-tattoo.png",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-neck-tattoo.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-arm-tattoos.png/@@images/image/large",
+                    "caption": "Matos Hand/Arm Tattoos",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-arm-tattoos.png",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-arm-tattoos.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/chest-tattoo.png/@@images/image/large",
+                    "caption": "Matos Chest Tattoo",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/chest-tattoo.png",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/chest-tattoo.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-body-tattoos.png/@@images/image/large",
+                    "caption": "Matos Body Tattoos",
+                    "original": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-body-tattoos.png",
+                    "thumb": "https://www.fbi.gov/wanted/murders/joseph-matos/matos-body-tattoos.png/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $25,000 for information leading to the arrest and conviction of Joseph Matos. Additional reward money may be available.",
+            "nationality": "American",
+            "legat_names": null,
+            "dates_of_birth_used": [
+                "September 9, 1982"
+            ],
+            "status": "na",
+            "build": null,
+            "weight_min": 220,
+            "hair_raw": "Brown",
+            "uid": "afe37027b23046a6a96f8e42d57d1362",
+            "sex": "Male",
+            "height_max": 74,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/afe37027b23046a6a96f8e42d57d1362"
+        },
+        {
+            "possible_states": null,
+            "warning_message": null,
+            "field_offices": [
+                "sanfrancisco"
+            ],
+            "details": "\u003Cp\u003EThe Federal Bureau of Investigation's San Francisco Field Office is seeking the public's assistance in identifying the individual responsible for assaulting federal officers and the theft of government property on June 10, 2025, in Concord, California.  The government property stolen is identified as a Federal Bureau of Investigation Special Agent's badge.   \u003C/p\u003E\r\n\u003Cp\u003E \u003C/p\u003E\r\n\u003Cp\u003EThe individual is described as a female who was wearing a black hoodie at the time.  She is believed to be the individual who took the FBI Special Agent's badge.\u003C/p\u003E",
+            "locations": null,
+            "age_range": null,
+            "path": "/wanted/seeking-info/assault-on-federal-officers",
+            "occupations": null,
+            "eyes_raw": null,
+            "scars_and_marks": null,
+            "weight": null,
+            "poster_classification": "information",
+            "possible_countries": null,
+            "eyes": null,
+            "files": [
+                {
+                    "url": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/download.pdf",
+                    "name": "English"
+                }
+            ],
+            "modified": "2025-06-11T19:37:20+00:00",
+            "age_min": null,
+            "caution": null,
+            "description": "Concord, California\r\nJune 10, 2025",
+            "person_classification": "Main",
+            "hair": null,
+            "reward_max": 0,
+            "title": "ASSAULT ON FEDERAL OFFICERS",
+            "coordinates": [],
+            "place_of_birth": null,
+            "languages": null,
+            "race_raw": null,
+            "reward_min": 0,
+            "complexion": null,
+            "aliases": null,
+            "url": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers",
+            "ncic": null,
+            "height_min": null,
+            "race": null,
+            "publication": "2025-06-11T13:47:00",
+            "weight_max": null,
+            "subjects": [
+                "Seeking Information"
+            ],
+            "images": [
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/@@images/image/large",
+                    "caption": null,
+                    "original": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/@@images/image",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/sf2.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/sf2.png",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/sf2.png/@@images/image/thumb"
+                },
+                {
+                    "large": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/sf3.png/@@images/image/large",
+                    "caption": "",
+                    "original": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/sf3.png",
+                    "thumb": "https://www.fbi.gov/wanted/seeking-info/assault-on-federal-officers/sf3.png/@@images/image/thumb"
+                }
+            ],
+            "suspects": null,
+            "remarks": null,
+            "reward_text": "The FBI is offering a reward of up to $25,000 for information leading to the identification and arrest of the individual, as well as the recovery of the FBI Special Agent's badge.",
+            "nationality": null,
+            "legat_names": null,
+            "dates_of_birth_used": null,
+            "status": "na",
+            "build": null,
+            "weight_min": null,
+            "hair_raw": null,
+            "uid": "1c86e91fa9c04a8f86b4bc34422b2d6b",
+            "sex": null,
+            "height_max": null,
+            "additional_information": null,
+            "age_max": null,
+            "pathId": "https://api.fbi.gov/@wanted-person/1c86e91fa9c04a8f86b4bc34422b2d6b"
+        }
+    ],
+    "page": 1
+}
